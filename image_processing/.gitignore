@@ -1,0 +1,43 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === Virtual Environment ===
+venv/
+env/
+.venv/
+.env/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Output (generated images) ===
+output/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+
+# === Keep sample assets ===
+!assets/sample.jpg
+!assets/*.py
+
+# === OS ===
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# === Distribution ===
+dist/
+build/
+*.egg-info/
+
+# === Logs ===
+*.log
